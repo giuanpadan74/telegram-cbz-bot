@@ -1,0 +1,16 @@
+{
+  "name": "telegram-cbz-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/bot.ts",
+    "dev": "bun run src/bot.ts",
+    "build": "bun build src/bot.ts --outdir dist --target bun"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "jszip": "^3.10.1",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
